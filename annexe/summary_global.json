@@ -1,0 +1,327 @@
+[
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9069767441860465,
+        "precision": 0.9090550352520257,
+        "recall": 0.9069767441860465,
+        "f1": 0.9075086095709177
+      },
+      "Custom": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9325810516668576,
+        "recall": 0.9302325581395349,
+        "f1": 0.9291528239202658
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "II_CNN",
+    "device": "cpu",
+    "ecart_max_conv_manuel_pytorch": 0.0,
+    "test_acc_cnn": 0.4889,
+    "test_acc_mlp": 0.4351,
+    "experiences_architecturales": {
+      "baseline": 0.4696,
+      "plus_filtres": 0.5098,
+      "conv_1x1": 0.4468
+    }
+  },
+  {
+    "partie": "III_Seq2Seq",
+    "device": "cpu",
+    "corpus": "fra-eng (ManyThings)",
+    "perplexite_finale": {
+      "rnn": 14.018030872506312,
+      "lstm": 18.665545102405662,
+      "gru": 16.049484088342172
+    },
+    "seq2seq_loss_finale": 1.8961310167555725,
+    "bleu_greedy": 26.269098944241588,
+    "bleu_beam": 26.269098944241588
+  },
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9069767441860465,
+        "precision": 0.9090550352520257,
+        "recall": 0.9069767441860465,
+        "f1": 0.9075086095709177
+      },
+      "Custom": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9325810516668576,
+        "recall": 0.9302325581395349,
+        "f1": 0.9291528239202658
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9069767441860465,
+        "precision": 0.9090550352520257,
+        "recall": 0.9069767441860465,
+        "f1": 0.9075086095709177
+      },
+      "Custom": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9325810516668576,
+        "recall": 0.9302325581395349,
+        "f1": 0.9291528239202658
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9069767441860465,
+        "precision": 0.9090550352520257,
+        "recall": 0.9069767441860465,
+        "f1": 0.9075086095709177
+      },
+      "Custom": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9325810516668576,
+        "recall": 0.9302325581395349,
+        "f1": 0.9291528239202658
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "II_CNN",
+    "device": "cpu",
+    "ecart_max_conv_manuel_pytorch": 0.0,
+    "test_acc_cnn": 0.4889,
+    "test_acc_mlp": 0.4351,
+    "experiences_architecturales": {
+      "baseline": 0.4696,
+      "plus_filtres": 0.5098,
+      "conv_1x1": 0.4468
+    }
+  },
+  {
+    "partie": "III_Seq2Seq",
+    "device": "cpu",
+    "corpus": "fra-eng (ManyThings)",
+    "perplexite_finale": {
+      "rnn": 9.91959421200617,
+      "lstm": 12.494065495587826,
+      "gru": 10.551784123123406
+    },
+    "seq2seq_loss_finale": 1.3295120420849231,
+    "bleu_greedy": 26.269098944241588,
+    "bleu_beam": 17.965205598154213
+  },
+  {
+    "partie": "II_CNN",
+    "device": "cpu",
+    "ecart_max_conv_manuel_pytorch": 0.0,
+    "test_acc_cnn": 0.4889,
+    "test_acc_mlp": 0.4351,
+    "experiences_architecturales": {
+      "baseline": 0.4696,
+      "plus_filtres": 0.5098,
+      "conv_1x1": 0.4468
+    }
+  },
+  {
+    "partie": "III_Seq2Seq",
+    "device": "cpu",
+    "corpus": "fra-eng (ManyThings)",
+    "perplexite_finale": {
+      "rnn": 9.91959421200617,
+      "lstm": 12.494065495587826,
+      "gru": 10.551784123123406
+    },
+    "seq2seq_loss_finale": 1.3295120420849231,
+    "bleu_greedy": 26.269098944241588,
+    "bleu_beam": 17.965205598154213
+  },
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9069767441860465,
+        "precision": 0.9090550352520257,
+        "recall": 0.9069767441860465,
+        "f1": 0.9075086095709177
+      },
+      "Custom": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9325810516668576,
+        "recall": 0.9302325581395349,
+        "f1": 0.9291528239202658
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "II_CNN",
+    "device": "cpu",
+    "ecart_max_conv_manuel_pytorch": 0.0,
+    "test_acc_cnn": 0.4889,
+    "test_acc_mlp": 0.4351,
+    "experiences_architecturales": {
+      "baseline": 0.4696,
+      "plus_filtres": 0.5098,
+      "conv_1x1": 0.4468
+    }
+  },
+  {
+    "partie": "III_Seq2Seq",
+    "device": "cpu",
+    "corpus": "fra-eng (ManyThings)",
+    "perplexite_finale": {
+      "rnn": 9.91959421200617,
+      "lstm": 12.494065495587826,
+      "gru": 10.551784123123406
+    },
+    "seq2seq_loss_finale": 1.3295120420849231,
+    "bleu_greedy": 26.269098944241588,
+    "bleu_beam": 17.965205598154213
+  },
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9372093023255813,
+        "recall": 0.9302325581395349,
+        "f1": 0.9284598826657662
+      },
+      "Custom": {
+        "accuracy": 0.9534883720930233,
+        "precision": 0.9534883720930233,
+        "recall": 0.9534883720930233,
+        "f1": 0.9534883720930233
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "II_CNN",
+    "device": "cpu",
+    "ecart_max_conv_manuel_pytorch": 0.0,
+    "test_acc_cnn": 0.5004,
+    "test_acc_mlp": 0.4316,
+    "experiences_architecturales": {
+      "baseline": 0.4845,
+      "plus_filtres": 0.4904,
+      "conv_1x1": 0.4445
+    }
+  },
+  {
+    "partie": "III_Seq2Seq",
+    "device": "cpu",
+    "corpus": "fra-eng (ManyThings)",
+    "perplexite_finale": {
+      "rnn": 9.91959421200617,
+      "lstm": 12.494065495587826,
+      "gru": 10.551784123123406
+    },
+    "seq2seq_loss_finale": 1.3295120420849231,
+    "bleu_greedy": 26.269098944241588,
+    "bleu_beam": 17.965205598154213
+  },
+  {
+    "partie": "I_MLP",
+    "device": "cpu",
+    "n_train": 398,
+    "initialisations_val_acc": {
+      "gaussienne": 0.9882352941176471,
+      "constante": 0.9294117647058824,
+      "xavier": 0.9882352941176471
+    },
+    "test_metrics": {
+      "Sequential": {
+        "accuracy": 0.9302325581395349,
+        "precision": 0.9372093023255813,
+        "recall": 0.9302325581395349,
+        "f1": 0.9284598826657662
+      },
+      "Custom": {
+        "accuracy": 0.9534883720930233,
+        "precision": 0.9534883720930233,
+        "recall": 0.9534883720930233,
+        "f1": 0.9534883720930233
+      }
+    },
+    "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+  },
+  {
+    "partie": "II_CNN",
+    "device": "cpu",
+    "ecart_max_conv_manuel_pytorch": 0.0,
+    "test_acc_cnn": 0.5004,
+    "test_acc_mlp": 0.4316,
+    "experiences_architecturales": {
+      "baseline": 0.4845,
+      "plus_filtres": 0.4904,
+      "conv_1x1": 0.4445
+    }
+  },
+  {
+    "partie": "III_Seq2Seq",
+    "device": "cpu",
+    "corpus": "fra-eng (ManyThings)",
+    "perplexite_finale": {
+      "rnn": 9.91959421200617,
+      "lstm": 12.494065495587826,
+      "gru": 10.551784123123406
+    },
+    "seq2seq_loss_finale": 1.3295120420849231,
+    "bleu_greedy": 26.269098944241588,
+    "bleu_beam": 17.965205598154213
+  }
+]

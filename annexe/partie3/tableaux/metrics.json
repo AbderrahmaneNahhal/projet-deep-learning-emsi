@@ -1,0 +1,12 @@
+{
+  "device": "cpu",
+  "corpus": "fra-eng (ManyThings)",
+  "perplexite_finale": {
+    "rnn": 9.91959421200617,
+    "lstm": 12.494065495587826,
+    "gru": 10.551784123123406
+  },
+  "seq2seq_loss_finale": 1.3295120420849231,
+  "bleu_greedy": 26.269098944241588,
+  "bleu_beam": 17.965205598154213
+}

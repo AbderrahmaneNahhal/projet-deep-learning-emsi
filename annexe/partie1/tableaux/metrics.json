@@ -1,0 +1,24 @@
+{
+  "device": "cpu",
+  "n_train": 398,
+  "initialisations_val_acc": {
+    "gaussienne": 0.9882352941176471,
+    "constante": 0.9294117647058824,
+    "xavier": 0.9882352941176471
+  },
+  "test_metrics": {
+    "Sequential": {
+      "accuracy": 0.9302325581395349,
+      "precision": 0.9372093023255813,
+      "recall": 0.9302325581395349,
+      "f1": 0.9284598826657662
+    },
+    "Custom": {
+      "accuracy": 0.9534883720930233,
+      "precision": 0.9534883720930233,
+      "recall": 0.9534883720930233,
+      "f1": 0.9534883720930233
+    }
+  },
+  "checkpoint": "C:\\Users\\HP\\Desktop\\deeplearningnew\\checkpoints\\mlp_breast_cancer.pth"
+}

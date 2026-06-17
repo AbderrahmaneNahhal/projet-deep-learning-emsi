@@ -1,0 +1,11 @@
+{
+  "device": "cpu",
+  "ecart_max_conv_manuel_pytorch": 0.0,
+  "test_acc_cnn": 0.5004,
+  "test_acc_mlp": 0.4316,
+  "experiences_architecturales": {
+    "baseline": 0.4845,
+    "plus_filtres": 0.4904,
+    "conv_1x1": 0.4445
+  }
+}
